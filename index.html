@@ -1,541 +1,732 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Resumex - Professional HTML CSS Resume Website Template</title>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>About Ryu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-    <!-- favicon -->
-    <link href="favicon.png" rel=icon>
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    <!-- web-fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-    <!-- font-awesome -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Style CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar">
-<div id="main-wrapper">
-<!-- Page Preloader -->
-<div id="preloader">
-    <div id="status">
-        <div class="status-mes"></div>
-    </div>
-</div>
-
-<div class="columns-block container">
-<div class="left-col-block blocks">
-    <header class="header theiaStickySidebar">
-        <div class="profile-img">
-            <img src="img/resumeProfileImage.png" class="img-responsive" alt=""/>
-        </div>
-        <div class="content">
-            <h1>유창근</h1>
-            <span class="lead">iOS Developer</span>
-
-            <div class="about-text">
-                컴퓨터공학을 전공 후 측정 장비 운용 소프트웨어와 영상처리 알고리즘을 구현하며 여러 장비 운용 시스템 개발 프로젝트를 수행했습니다.
-                <p>반년간의 여행을 통해 커리어 전환에 대해 생각했습니다.
-                후에 생산 자동화 업체에 입사하여 자동차용 전지 생산 장비를 개발 완료 후 패스트 캠퍼스에서 iOS 과정을 통해 수료 했습니다.
-                </p>
-                <p>처음 시작하는 마음으로 iOS공부 중입니다!</p>
-                <p><img src="img/signature.png" alt="" class="img-responsive"/></p>
-            </div>
+	<link rel="stylesheet" href="css/style.css">
 
 
-            <ul class="social-icon">
-                <li><a href="https://www.rocketpunch.com/@sae-yujeo-cuga0cc4e1fe">
-                    <i class="fa fa-rocket" aria-hidden="true"></i></a></li>
-                <li><a href="mailto:ryu.dev86@gmail.com">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/Chang-Geun-Ryu">
-                    <i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="#">
-                    <i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-    </header>
-    <!-- .header-->
-</div>
-<!-- .left-col-block -->
+	</head>
+	<body>
+
+	<nav id="colorlib-main-nav" role="navigation">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+		<div class="js-fullheight colorlib-table">
+			<div class="colorlib-table-cell js-fullheight">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="form-group">
+							<input type="text" class="form-control" id="search" placeholder="Enter any key to search...">
+							<button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="work.html">Work</a></li>
+							<li><a href="activity.html">Activity</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="head-title">Works</h2>
+						<a href="images/work-1.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-1.jpg);">
+							<span><i class="icon-search3"></i></span>
+						</a>
+						<a href="images/work-2.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-2.jpg);">
+							<span><i class="icon-search3"></i></span>
+						</a>
+						<a href="images/work-3.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-3.jpg);">
+							<span><i class="icon-search3"></i></span>
+						</a>
+						<a href="images/work-4.jpg" class="gallery image-popup-link text-center" style="background-image: url(images/work-4.jpg);">
+							<span><i class="icon-search3"></i></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+	<div id="colorlib-page">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="colorlib-navbar-brand">
+							<a class="colorlib-logo" href="index.html"><span>유</span><span>창근</span></a>
+						</div>
+						<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="colorlib-about">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">About</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-5 animate-box">
+						<div class="owl-carousel3">
+							<div class="item">
+								<img class="img-responsive about-img" src="images/about.jpg" alt="html5 bootstrap template by colorlib.com">
+							</div>
+							<div class="item">
+								<img class="img-responsive about-img" src="images/about-3.jpg" alt="html5 bootstrap template by colorlib.com">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-push-1 animate-box">
+							<div class="about-desc">
+								<div class="owl-carousel3">
+									<div class="item">
+										<h2><span>안녕하세요</span><span>유창근 입니다.</span></h2>
+									</div>
+									<div class="item">
+										<h2><span>I'm</span><span>A Developer</span></h2>
+								</div>
+							</div>
+							<div class="desc">
+								<div class="rotate">
+									<h2 class="heading">About</h2>
+								</div>
+								<p>더 나은 <a href="#">iOS 개발자</a>가 되기위해 노력합니다</p>
+								<p class="colorlib-social-icons">
+									<a href="mailto:ryu.dev86@gmail.com"><i class="icon-mail7"></i></a>
+									<a href="https://github.com/Chang-Geun-Ryu"><i class="icon-github"></i></a>
+									<a href="https://jeongako.github.io/"><i class="icon-pen3"></i></a>
+								</p>
+								<p><a href="about.html" class="btn btn-primary btn-outline">Self Interview :)</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Interview</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="services-flex">
+							<div class="row">
+								<div class="row">
+									<div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+										<span>Introduce myself</span>
+										<h2>Self Interview</h2>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="rotate">
+											<h2 class="heading">Interview</h2>
+										</div>
+									</div>
+								</div>
+									<div class="col-md-6">
+										<div class="services animate-box">
+											<h3>1 - 언제부터 지금의 직무에 관심을 갖게 되었나요?</h3>
+											<p>반년간의 배낭여행중 가장 요긴하게 쓰인것은 스마트폰입니다. 지역정보 획득, 교통수단 예매와 티켓 관리, 숙박등 여행과정에 필요한 것들을 준비할 수 있었습니다. 혼자 여행하면서 가족들과 지인들과의 연락또한 가능하며 현지 여행객들과 소통도 가능함을 알면서 모바일 플랫폼의 무궁무진한 발전 가능성을 보았고 커리어 전환을 생각하게 되는 계기가 되었습니다.</p>
+										</div>
+										<div class="services animate-box">
+											<h3>2 - 자기계발을 위해 어떤 것들을 해왔나요?</h3>
+											<p>빠르게 iOS 관련 지식을 얻기위해 패스트캠퍼스 iOS 과정을 수료하며 현 iOS 개발에 대한 팁과 Swift 및 iOS 개발을 공부했습니다. 이전 장비 개발회사에서 근무하던때에는 각종 Firmware Manual들과 Googling등을 통하여 새로운 기술을 습득했습니다.</p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="services animate-box">
+											<h3>3 - 특별한 경험이 있으면 들려주세요</h3>
+											<p>유럽의 서남단 지브롤터 부터 러시아의 극동부 블라디보스톡까지 기차를 이용하며 여행을 했습니다. 여러 현지인들과 가끔씩 동행하는 같은 배낭 여행객들을 보며 이질감과 동시에 동질감 또한 느꼈습니다. 또한, 홀로 여행하며 그동안의 나를 돌아보는 계기와 방향에 대해서 많은 생각하는 기회가 되었습니다.</p>
+										</div>
+										<div class="services animate-box">
+											<h3>4 - 언제 업무에 보람을 느끼세요? 그리고 언제 가장 힘드신가요?</h3>
+											<p>개발자로서 가장 큰 보람은 자신이 만든 프로그램을 상용화되고 성공하여 많은 이들이 사용하는 것을 보는것 이라고 생각하며, 저또한 그런 상황에서 아주 만족스런 감정을 느낀바 있습니다. 가장힘든 기간은 자신이 정체되어 있다는 느낌이 들때 가장 힘듭니다. 개발자라는 정체성이 항상 성장을 못하면 불안해지는 직업병이 생긴것같습니다.</p>
+										</div>
+										<div class="services animate-box">
+											<h3>5 - 당신만의 강점이 있다면?</h3>
+											<p>자동화 측정장비 개발 회사에 입사하여 VC++, C#, Machine Vision, CIM, Serial 통신, CUDA, Multi-Threading, PMAC등 다양한 기술을 통하여 Standing Alone Type의 자동화 측정장비 운영 시스템 개발에 참여하였습니다. 7년간의 개발 경험과 유지보수등 고객들의 Needs 처리에 훈련되어 있습니다.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Skill</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="services-flex">
+							<div class="one-third">
+								<div class="row">
+									<div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+										<span>My ability</span>
+										<h2>Here Are Some of My Skills</h2>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="rotate">
+											<h2 class="heading">ability</h2>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="services animate-box">
+											<h3>1 - Swift</h3>
+											Swift의 문법을 배우고 이해하며 더 좋은 코드를 위해 노력하고 있습니다.
+											<p>짧은시간에 많은 변화를 겪은 언어인 만큼 변화에 대응하기 위해 designcode, raywenderlich 등의 사이트를 통해 꾸준히 공부하고 있습니다.</p>
+											<p>
+											<li> ​다양한 프레임워크와 라이브러리를 이해하고 활용해왔습니다.</li>
+   											   <small>( 사용 경험: Firebase(Database, Storeage, Remote Config), Snapkit, Kingfisher, SwiftLint, Naver SDK 맵뷰, Kakao SDK 로그인 )</small>
+  											<li> Restful API에 대한 충분한 이해를 바탕으로 서버 네트워킹을 구현할 수 있습니다. </li>
+  											<li> MVC 패턴을 이해하고 있고 프로젝트에 적용한 경험이 있습니다. </li><li> AutoLayout에 대해 이해를 갖추고 100% 코드로 UI를 구현할 수 있습니다. </li>
+   											</p>
+										</div>
+										<div class="services animate-box">
+											<h3>2 - Git &amp; Github</h3>
+											프로젝트를 Git과 Github을 활용하여 관리하고 있으며, Github io를 통해 블로그 작성을 하고 있습니다. <p>Pull Request, Merge, Fetch, pull, push 기능을 Terminal을 통하여 관리하였고 팀 프로젝트를 협업하였고 그 과정에서 Conflict를 경험하면서 Git에 대한 이해도를 높일 수 있었습니다.</p>
+										</div>
+										<div class="services animate-box">
+											<h3>3 - Collaboration</h3>
+										<li>Slack - 모든 프로젝트를 Slack을 통해 소통하였고 Slack을 Github과 연동하여 팀원의 진행상태를 파악할 수 있었습니다.</li> 
+										<li>Trello - 칸반보드를 사용하여 Task를 정리하였고 간트차트 기능을 이용해 일정 관리를 하였습니다. </li>
+										<li>Jira - 공모전 출전시에는 이슈관리에 더 신경쓰고자 Jira를 도입하였습니다.</li>
+										</div>
+										<div class="services animate-box">
+											<h3>4 - vc++, c#, 영상처리 라이브러리</h3>
+											<li>vc++ - 이전 자동화 라인장비 운영소프트웨어 개발에 참여하여 모션제어, 펌웨어 통신, 영상처리, UI구현, CIM 통신 등의 많은 경험이 있습니다.</li> 
+											<li>c# - 더 나은 UI 제작을 위해 선택하여 습득하고 구현했습니다. 핵심 기능은 c++로 구현하였고 두 언어를 같이 사용하기 위하여 Managed c++과 같이 사용 되었습니다. </li>
+											<li>영상처리 라이브러리 - openCV, HALCON, COGNEX 등의 상용 및 오픈 라이브러리 사용에 익숙합니다.</li>
+											
+										</div>
+										<div class="services animate-box">
+											<h3>5 - English</h3>
+											영어로 된 개발 관련 문서를 읽고 새로운 기술을 습득할 수 있습니다.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="one-forth services-img" style="background-image: url(images/services-img-1.jpg);">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-work">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Projects</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>Portfolio</span>
+						<h2>Done Projects</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="rotate">
+							<h2 class="heading">Portfolio</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="work-entry animate-box">
+							<a href="https://github.com/Chang-Geun-Ryu/2019MobileSeoulContest" class="work-img" style="background-image: url(images/mtnTop.gif);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>서울 봉우리</h2> 
+									</div>
+								</div>
+							</a>
+							<div class="col-md-8 col-md-offset-2">
+								<div class="desc">
+									<p>
+										<B>2019년 스마트서울 모바일 앱 공모전 장려상 수상</B>
+ 										<p>서울을 둘러싸고 있는 산들을 등반하면서 정확한 기록(위도, 경도, 고도)과, 사진을 기기에 저장하고 랭킹을 매기는 앱</p>
+										<B>사용기술</B>
+										<li>라이브러리: SQLite, SnapKit Firebase Database, Firebase Storage, Forebase Remote Config , Lottie, snapkit, Kingfisher</li>
+										<li>외부 SDK : KaKaoSDK, naverSDK</li>
+										<li>협업 툴 : JIRA, Slack, Sketch</li>
+									</p>
+
+										<p> <small>2019.09.01 – 2019.09.30</small>
+									<p class="read"><a href="https://github.com/Chang-Geun-Ryu/2019MobileSeoulContest">View details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="work-entry animate-box">
+							<a href="https://github.com/Chang-Geun-Ryu/iOSHouseOfToday" class="work-img" style="background-image: url(images/houseOfToday.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>오늘의집</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-8 col-md-offset-2">
+								<div class="desc">
+										<B>오늘의 집 클론 프로젝트 / 팀 프로젝트</B>
+ 										<p>Backend, Frontend, iOS가한 팀으로 구성하여 하나의 서비스를 프론트부터 서버까지 구현해보는 프로젝트</p>
+										<B>사용기술</B>
+										<li>라이브러리: SwiftLint, Kingfisher, SnapKit</li>
+										<li>외부 SDK : KaKaoSDK, googleSDK, naverSDK</li>
+										<li>협업 툴 : Trello, Slack, Sketch, AdobeXD</li>
+									</p> <small>2019.07.01 – 2019.08.09</small>
+									<p class="read"><a href="https://github.com/Chang-Geun-Ryu/iOSHouseOfToday">View details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="work-entry animate-box">
+							<a href="https://github.com/Chang-Geun-Ryu/hackKo-Ryu" class="work-img" style="background-image: url(images/wifiToDo.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>Wifi Todo list</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-8 col-md-offset-2">
+								<div class="desc">
+									<B>Wifi Todo list / 해커톤</B>
+ 										<p>특정 장소에서 해야 할 일을 까먹는 사용자를 위해 자신의 Todo list를 등록하고 알림을 받는 시점을 wifi 혹은 위치 기반으로 설정하여 집, 회사, 특정 위치에서 알림을 받을 수 있도록 설정 가능한 Todo list 알림 프로그램</p>
+										<B>사용기술</B>
+										<li>Swift5, wifiBSSID, UNNotification</li>
+										<li>협업 툴 : Trello, Slack</li>
+									<small>2019.06.28</small>
+									<p class="read"><a href="https://github.com/Chang-Geun-Ryu/hackKo-Ryu">View Details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="work-entry animate-box">
+							<a href="https://github.com/Chang-Geun-Ryu/Task/tree/master/2019.06.14/WeatherForecast" class="work-img" style="background-image: url(images/weather.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>날씨앱</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-8 col-md-offset-2">
+								<div class="desc">
+									<B>SK Planet 날씨 어플 만들기 / 개인 프로젝트 </B>
+									<p>Open API를 이용하여 서버와 통신하고 JSON Data를 받아 필요한 정보만 파싱하여 데이터를 다뤘습니다. JSONSerialization과 failable initializer를 사용하여 fatch service 데이터 파싱.
+									</p>
+									<p class="read"><a href="https://github.com/Chang-Geun-Ryu/Task/tree/master/2019.06.14/WeatherForecast">View details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="work-entry animate-box">
+							<a href="https://github.com/Chang-Geun-Ryu/SwiFood" class="work-img" style="background-image: url(images/SwiFood.jpg);">
+								<div class="display-t">
+									<div class="work-name">
+										<h2>레시피 공유 앱</h2>
+									</div>
+								</div>
+							</a>
+							<div class="col-md-8 col-md-offset-2">
+								<div class="desc">
+									<B>SwiFood / 해커톤</B>
+									<p>스윗한 디저트 레시피를 공유하는 어플 만들기</p>
+									<B>사용기술</B>
+									<li>
+									Firebase Storeage, Firebase Database
+									</li>
+									<small>2019.05.24</small>
+									<p class="read"><a href="https://github.com/Chang-Geun-Ryu/SwiFood">View details</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row text-center">
+					<h4 class="bold">Experience</h4>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="services-flex">
+							<div class="row">
+								<div class="row">
+									<div class="col-md-12 col-md-offset-0 animate-box intro-heading">
+										<span>WHAT I’VE LEARNED</span>
+										<h2>Education &amp; Experience</h2>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="rotate">
+											<h2 class="heading">Education &amp; Experience</h2>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="services animate-box">
+											<h3>패스트캠퍼스 iOS 스쿨 9기 수료<p><p>2019.03-2019.08</p></p></h3>
+											<p><li>오늘의 집 클론 어플</li>
+												<li>Wifi Todo list 메모알림 어플</li>
+												<li>SK Planet 날씨 어플</li>
+												<li>SwiFood 레시피 공유 어플</li><br>
+												<p>독학으로 iOS 개발자로 빠르게 전환하기 어렵다고 판단하여 퇴사와 동시에 iOS 스쿨에 참여 iOS 개발에 관한 기초와 다양한 어플개발 경험을 쌓았습니다.</p>
+											</p>
+										</div>
+										<div class="services animate-box">
+												<h3>주식회사 필옵틱스<p><p>2018.01-2019.02</p></p></h3>
+												<p>
+													<li>노칭장비 개발/유지보수</li>
+													<li>금형노칭장비 개발</li><br> 
+													<B>보유기술:</B> vc++, MFC, SQLite, TCP/IP, XML, CIM, Multi-Threading, PMAC, Serial<br>
+													<B>개발환경:</B> Visual Studio, Window 10, TCP/IP, PMAC, Serial<br>
+													<B>업무내용</B>
+													- 금형노칭기 운영 시스템 개발<br>
+													- 자동화 설비 운영 UI 설계, CIM 통신 구축, PMAC 통신 구축 연계<br> 
+													- 검사 모듈과 연계 통신 구축 및 외주회사 관리, 장비 셋업, 유지보수<br> 
+												</p>
+											</div>
+									</div>
+									<div class="col-md-6">
+											<div class="services animate-box">
+											<h3>주식회사 나노시스템<p><p>2011.04-2017.06</p></p></h3>
+											<p>
+												<li>측정 검사 자동화 장비 개발</li>
+												<li>측정 전용/범용 장비 운영프로그램 개발, 셋업, 유지보수</li>
+												<li>3D Data Analysis 프로그램 개발 참여</li><br> 
+												<B>보유기술:</B> vc++, c#, MFC, SQLite, TCP/IP, CIM, Multi-Threading, PMAC,<br> 
+												Serial Communication, CUDA, HALCON, OpenCV, MIL, Cognex
+												<br>
+												<B>개발환경:</B> Visual Studio, Window 7, Window XP, TCP/IP, PMAC, Serial<br> 
+												<B>업무내용</B> 
+												- 자동화 라인 광간섭 측정기 개발, 자동화 설비 운영 UI 설계 및 구현<br> 
+												- 영상처리 알고리즘 구현, 6축 모션 제어 구현, 범용라인 운영시스템 설계 및 구현<br> 
+											</p>
+										</div>
+										<div class="services animate-box">
+												<h3>대전대학교 컴퓨터공학과 졸업<p><p>2005-2011</p></p></h3>
+												<p>
+													<li>프로그래밍 소모임 'Character' 회장</li>
+													<li>인공지능/영상처리 LAB Staff</li>
+													<li>웹켐을 이용한 얼굴추적 프로그램 (졸업작품)</li>
+												</p>
+											</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-blog">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Activity</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>Activity</span>
+						<h2>Attend Conferences</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="rotate">
+							<h2 class="heading">My Activities</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="owl-carousel1">
+						<div class="item">
+							<div class="col-md-12">
+								<div class="article">
+									<a href="activity.html" class="blog-img">
+										<img class="img-responsive" src="images/img-1.jpg" alt="html5 bootstrap by colorlib.com">
+										<div class="overlay"></div>
+										<div class="link">
+											<span class="read">Read more</h2>
+										</div>
+									</a>
+									<div class="desc">
+											<span class="meta">30, Sep 2019</span>
+											<h2>2019 스마트 서울 모바일 앱 공모전 장려상 수상</h2>
+											<p>서울디지털재단에서 서울 지역의 앱 개발 분위기 조성 및 우수 개발자 발굴을 지원하기 위해 주최하는 공모전으로 서울시와 관련된 공익성을 담은 작품 제출. 한 달 동안 개발을 마친 후 제출하였고 1차 적합성 검토와 2차 전문가 평가의 공정한 심사과정을 입상하게 되었습니다. 11월 8일 최종평가(순위) 결과를 기다리고 있습니다.</p>
+											<p><a>▸</a> 관련 앱(서울 근교산 등산 앱 '서울 봉우리')은 'Work'에서 보실 수 있습니다.</p>
+										</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="col-md-12">
+								<div class="article">
+									<a href="activity.html" class="blog-img">
+										<img class="img-responsive" src="images/img-2.jpg" alt="html5 bootstrap by colorlib.com">
+										<div class="overlay"></div>
+										<div class="link">
+											<span class="read">Read more</h2>
+										</div>
+									</a>
+									<div class="desc">
+											<span class="meta">27, Aug 2019</span>
+											<h2>KT S/W Developer Conference 2019</h2>
+											<p>경로탐색은 어떻게 하는걸까?, GiGa Genie는 왜 Web App을 선택했는가?, AI-IoT연동을 위한 KT GiGa Genie Home Skills, 5G 시대의 자율주행 기술의 트렌드에 대한 강연을 듣고, 전시 부스에서 체험을 할 수 있었던 시간이었습니다.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="col-md-12">
+								<div class="article">
+									<a href="activity.html" class="blog-img">
+										<img class="img-responsive" src="images/img-4.jpg" alt="html5 bootstrap by colorlib.com">
+										<div class="overlay"></div>
+										<div class="link">
+											<span class="read">Read more</h2>
+										</div>
+									</a>
+									<div class="desc">
+											<span class="meta">12, Jul 2019</span>
+											<h2>​Naver Tech Concert</h2>
+											<p>​Naver에서 주최한 모바일 개발 분야의 기술과 경험, 개발 문화 등을 공유하기 위한 컨퍼런스.
+											네이버 지도 SDK 개발자가 하는 일, 클린코드를 지향하기 위해서 해왔던 시도, AR앱 개발 경험 공유, iOS 디버깅, 사용자 경험을 높이는 애니메이션 만들기, 네이버 iOS 개발자의 성장 루트의 주제들의 발표를 들었습니다.</p>
+										</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+								<div class="col-md-12">
+									<div class="article">
+										<a href="activity.html" class="blog-img">
+											<img class="img-responsive" src="images/wwdc2019.jpg" alt="html5 bootstrap by colorlib.com">
+											<div class="overlay"></div>
+											<div class="link">
+												<span class="read">Read more</h2>
+											</div>
+										</a>
+										<div class="desc">
+												<span class="meta">07, Jul 2019</span>
+												<h2>KXCoding “WWDC 19 톺아보기</h2>
+												<p>KXC에서 개최한 컨퍼런스로 애플 개발자의 최대 축제인 WWDCD에서 발표된 새로운 기능들과 Swift UI, Combine Framework 등의 주제에 대해서 톺아보는 시간을 가졌습니다.</p>
+											</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+									<div class="col-md-12">
+										<div class="article">
+											<a href="activity.html" class="blog-img">
+												<img class="img-responsive" src="images/secondHack.jpg" alt="html5 bootstrap by colorlib.com">
+												<div class="overlay"></div>
+												<div class="link">
+													<span class="read">Read more</h2>
+												</div>
+											</a>
+											<div class="desc">
+													<span class="meta">28, Jun 2019</span>
+													<h2>​2차 해커톤</h2>
+													<p>패스트 캠퍼스에서 개최한 두 번째 해커톤으로 '인생을 바꾸는 000'이라는 주제로 진행. 특정 장소에서 해야 할 일을 까먹는 사용자를 위해 자신의 Todo list를 등록하고 알림을 받는 시점을 wifi 기반으로 설정하여 특정 위치에서 알림을 받을 수 있도록 설정 가능한 Todo list 앱 구현. </p>
+													
+												</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+										<div class="col-md-12">
+											<div class="article">
+												<a href="activity.html" class="blog-img">
+													<img class="img-responsive" src="images/img-8.jpg" alt="html5 bootstrap by colorlib.com">
+													<div class="overlay"></div>
+													<div class="link">
+														<span class="read">Read more</h2>
+													</div>
+												</a>
+												<div class="desc">
+														<span class="meta">24, May 2019</span>
+														<h2>1차 해커톤</h2>
+														<p>패스트 캠퍼스에서 개최한 첫 번째 해커톤으로 패스트 캠퍼스에서 그동안 배운 내용을 바탕으로 주제 선정 및 구현. iOS, 웹 프론트엔드, 백엔드 스쿨에서 총 24팀이 참가하였고 달달한 음식 레시피를 제공하고 공유하는 앱을 제작하였습니다.</p>
+													</div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+											<div class="col-md-12">
+												<div class="article">
+													<a href="activity.html" class="blog-img">
+														<img class="img-responsive" src="images/angel.jpg" alt="html5 bootstrap by colorlib.com">
+														<div class="overlay"></div>
+														<div class="link">
+															<span class="read">Read more</h2>
+														</div>
+													</a>
+													<div class="desc">
+															<span class="meta">28, Apr 2019</span>
+															<h2>​이 달의 앤젤</h2>
+															<p>패스트 캠퍼스에서 매 달 iOS 학습에 가장 도움을 주는 학생에게 주어지는 '우수 장학생'에 선정 되었습니다.</p>
+														</div>
+												</div>
+											</div>
+										</div>
+					</div>
+				</div>
+			</div>
+	
+		<div id="colorlib-contact">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="bold">Contact</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
+						<span>Get in touch</span>
+						<h2>Contact</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="rotate">
+							<h2 class="heading">Contact</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<div class="row">
+							<div class="col-md-4 animate-box">
+								<h3>My Address</h3>
+								<ul class="contact-info">
+									<li><span><i class="icon-map5"></i></span>서울특별시 성동구 성수1가</li>
+									<li><span><i class="icon-phone4"></i></span>+82 10 9257 3573</li>
+									<li><span><i class="icon-envelope2"></i></span><a href="mailto:dev.Ryu@gmail.com">ryu.dev86@gmail.com</a></li>
+									<li><span><i class="icon-dribbble2"></i></span><a href="https://github.com/Chang-Geun-Ryu">https://github.com/Chang-Geun-Ryu</a></li>
+								</ul>
+							</div>
+							<div class="col-md-7 col-md-push-1 animate-box">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="form-group">
+											<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="submit" value="Send Message" class="btn btn-primary">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
+					<div class="row">
+						<div class="col-md-12 text-center">
+								&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart4" aria-hidden="true"></i> by<a href="#"> Ryu</a></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</div>
+					</div>
+	</div>
 
-<div class="right-col-block blocks">
-<div class="theiaStickySidebar">
-<!--
-<section class="expertise-wrapper section-wrapper gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h1>Interview</h1>
-                </div>
-            </div>
-        </div>
-        <!-- .row --
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Owl Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
 
-        <div class="row">
-            <div class="col-md-5">
-                <div class="expertise-item">
-                    <h3>프로그래밍</h3>
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
 
-                    <p>
-                        Synergistically strategize customer directed resources rather than principle.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="expertise-item">
-                    <h3>여행</h3>
-
-                    <p>
-                        Quickly repurpose reliable customer service with orthogonal ideas. Competently.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="expertise-item">
-                    <h3>도전</h3>
-
-                    <p>
-                        Interactively myocardinate high standards in initiatives rather than next-generation.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="expertise-item">
-                    <h3>스포츠</h3>
-
-                    <p>
-                        Dynamically initiate client-based convergence vis-a-vis performance based. 
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-
-    </div>
-
-</section>
- <----.expertise-wrapper -->
-
-    <section class="section-wrapper section-experience gray-bg">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-title"><h1>Interview</h1></div>
-                    </div>
-                </div>
-                <!--.row-->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="content-item">
-                            <h3>언제부터 지금의 직무에 관심을 갖게 되었나요?</h3>
-                            <p>&nbsp반년간의 배낭여행중 가장 요긴하게 쓰인것은 스마트폰입니다. <br>
-                                지역정보 획득, 교통수단 예매와 티켓 관리, 숙박등 <br>
-                                여행과정에 필요한 것들을 준비할 수 있었습니다.<br>
-                                &nbsp혼자 여행하면서 가족과 지인들에 연락도 가능하고<br>
-                                현지 여행객들과 소통을 할수있는 창구도 되는것을 보면서<br>
-                                모바일 플랫폼의 무궁무진한 발전 가능성을 보았습니다.<br>
-                                그래서 iOS개발자로서 커리어 전환을 생각하게 되는 계기가 되었습니다.</p>
-                
-                        </div>
-                        <!-- .experience-item -->
-                        <div class="content-item">
-                            <h3>자기계발을 위해 어떤 것들을 해왔나요?</h3>
-                            <p>&nbsp빠르게 iOS 관련 지식을 얻기위해 패스트캠퍼스 iOS 과정을 수료하며 <br>
-                                현 iOS 개발에 대한 팁과 Swift 및 iOS 개발을 공부했습니다.  <br>
-                                &nbsp이전 장비 개발회사에서 근무하던때에는 각종 Firmware Manual들과 <br>
-                                혼자 여행하면서 가족과 지인들에 연락도 가능하고<br>
-                                Googling등을 통하여 새로운 기술을 습득했습니다.<br>
-                                &nbsp모바일 플랫폼의 무궁무진한 발전 가능성을 보았습니다.</p>
-                        </div>
-                        <!-- .experience-item -->
-                        <div class="content-item">
-                            <h3>특별한 경험이 있으면 들려주세요</h3>
-                            <p>&nbsp반년간의 유라시아 배낭 여행이 저에게 있어 특별한 경험입니다. <br>
-                                유럽의 서남단 지브롤터 부터 러시아의 극동부 블라디보스톡까지 <br>
-                                기차를 이용하며 여행을 했습니다.  <br>
-                                &nbsp여러 현지인들과 가끔씩 동행하는 같은 배낭 여행객들을 보며 <br>
-                                이질감과 동시에 동질감 또한 느꼈습니다. <br>
-                                또한, 홀로 여행하며 그동안의 나를 돌아보는 계기와 방향에 대해서<br>
-                                 많은 생각하는 기회가 되었습니다.</p>
-                        </div>
-                        <!-- .experience-item -->
-                        <div class="content-item">
-                                <h3>언제 업무에 보람을 느끼세요? 그리고 언제 가장 힘드신가요?</h3>
-                                <p>&nbsp개발자로서 가장 큰 보람은 자신이 만든 프로그램을 상용화되고 <br>
-                                    성공하여 많은 이들이 사용하는 것을 보는것 이라고 생각하며, <br>
-                                    저 또한 그런 상황에서 아주 만족스런 감정을 느낀바 있습니다.  <br>
-                                    가장 힘든 기간은 자신이 정체되어 있다는 느낌이 들 때입니다.</p>
-                        </div>
-                        <!-- .experience-item -->
-                        <div class="content-item">
-                                <h3>당신만의 강점이 있다면?</h3>
-                                <p>&nbsp자동화 측정장비 개발 회사에 입사하여 VC++, C#, Machine Vision, <br>
-                                    CIM, Serial 통신, CUDA, Multi-Threading, PMAC등 다양한 기술을 통하여 <br>
-                                    Standing Alone Type의 자동화 측정장비 운영 시스템 개발에 참여하였습니다.   <br>
-                                    7년간의 개발 경험과 유지보수등 고객들의 Needs 처리에 훈련되어 있습니다.</p>
-                        </div>
-                        <!-- .experience-item -->
-                    </div>
-                </div>
-                <!--.row-->
-            </div>
-            <!-- .container-fluid -->
-        
-        </section>
-        <!-- .section-experience -->
-
-
-<section class="section-wrapper section-experience gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h1>Developer Experience</h1></div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
-                
-                <div class="content-item">
-                    <small>2018.01 - 2019.02</small>
-                    <h3>(주) 필옵틱스</h3>
-                    <h4>전기자동차 전지 생산장비 개발</h4>
-
-                    <p>수원시, 경기도</p>
-
-                    <B>주요업무:</B> 자동화라인 금형도칭기 운영 시스템 개발<br>
-                    <B>보유기술:</B> vc++, MFC, SQLite, TCP/IP, XML, CIM, Multi-Threading, PMAC, Serial<br>
-                    <B>개발환경:</B> Visual Studio, Window 10, TCP/IP, PMAC, Serial<br>
-                    <B>업무내용</B>&nbsp - 금형노칭기 운영 시스템 개발<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 자동화 설비 운영 UI 설계 <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - CIM 통신 구축 <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - PMAC 통신 구축 연계 <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 검사 모듈과 연계 통신 구축 및 외주회사 관리<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 장비 셋업, 유지보수
-                     
-                </div>
-                <!-- .experience-item -->
-                <div class="content-item">
-                    <small>2011.04 - 2017.06</small>
-                    <h3>(주) 나노시스템</h3>
-                    <h4>자동화 측정/검사 장비 개발</h4>
-
-                    <p>유성구, 대전광역시</p>
-
-                    <B>주요업무:</B> 측정/검사 장비 운영 시스템 개발 <br>
-                    <B>보유기술:</B> vc++, c#, MFC, SQLite, TCP/IP, CIM, Multi-Threading, PMAC, 
-                    <br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    Serial Communication, CUDA, HALCON, OpenCV, MIL, Cognex
-                    <br>
-                    <B>개발환경:</B> Visual Studio, Window 7, Window XP, TCP/IP, PMAC, Serial<br>
-                    <B>업무내용</B> &nbsp- 자동화 라인 광간섭 측정기 개발<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 자동화 설비 운영 UI 설계 및 구현 <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 영상처리 알고리즘 구현 <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 6축 모션 제어 구현 <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 범용라인 운영시스템 설계 및 구현<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    - 장비 셋업, 유지보수 <br>
-                </div>
-                <!-- .experience-item -->
-            </div>
-        </div>
-        <!--.row-->
-    </div>
-    <!-- .container-fluid -->
-
-</section>
-<!-- .section-experience -->
-
-<section class="section-wrapper section-education">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h1>Education</h1></div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
-                    <small>2019.03 - 2019.08</small>
-                    <h3>패스트 캠퍼스</h3>
-                    <h4>iOS 개발자 과정 수료</h4>
-
-                    <p>성동구, 서울특별시</p>
-                </div>
-                <!-- .experience-item -->
-                <div class="content-item">
-                    <small>2005.03 - 2011.8</small>
-                    <h3>대전대학교</h3>
-                    <h4>컴퓨터공학 학사</h4>
-
-                    <p>동구, 대전광역시</p>
-                </div>
-                <!-- .experience-item -->
-                <!-- .experience-item -->
-            </div>
-        </div>
-        <!--.row-->
-    </div>
-    <!-- .container-fluid -->
-
-</section>
-<!-- .section-education -->
-
-<section class="section-wrapper section-interest gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h1>Interest</h1>
-                </div>
-            </div>
-        </div>
-        <!-- .row -->
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
-                    <h3>Apple</h3>
-
-                    <p>사과는 맛있어</p>
-                </div>
-                <div class="content-item">
-                    <h3>Programing</h3>
-
-                    <p>관심 많다. 백발 프로그래머가 꿈</p>
-
-                </div>
-                <div class="content-item">
-                    <h3>Sports</h3>
-
-                    <p>싸이클, 써핑, 스노우 보딩, 클라이밍 등 뭔가 Activity한 스포츠를 좋아하며,<br>
-                         사회인 야구를 3년간 즐기다 부상으로 은퇴</p>
-                </div>
-            </div>
-        </div>
-        <!-- .row -->
-
-    </div>
-</section>
-<!-- .section-publications -->
-
-<section class="section-wrapper portfolio-section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h1>Portfolio</h1>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio-1.jpg" alt="">
-                    </div>
-
-                    <div class="portfolio-info">
-                        <h3>Creative concepts</h3>
-                        <small>domain.com</small>
-                    </div>
-                    <!-- portfolio-info -->
-                </a>
-                <!-- .portfolio-item -->
-            </div>
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio-2.jpg" alt="">
-                    </div>
-
-                    <div class="portfolio-info">
-                        <h3>Customer focused</h3>
-                        <small>domain.com</small>
-                    </div>
-                    <!-- portfolio-info -->
-                </a>
-                <!-- .portfolio-item -->
-            </div>
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio-3.jpg" alt="">
-                    </div>
-
-                    <div class="portfolio-info">
-                        <h3>Management methodology</h3>
-                        <small>domain.com</small>
-                    </div>
-                    <!-- portfolio-info -->
-                </a>
-                <!-- .portfolio-item -->
-            </div>
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src="img/portfolio-4.jpg" alt="">
-                    </div>
-
-                    <div class="portfolio-info">
-                        <h3>Market research</h3>
-                        <small>domain.com</small>
-                    </div>
-                    <!-- portfolio-info -->
-                </a>
-                <!-- .portfolio-item -->
-            </div>
-
-        </div>
-        <!-- /.row -->
-    </div>
-</section>
-<!-- .portfolio -->
-
-<section class="section-contact section-wrapper gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Contact</h2>
-                </div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
-                <address>
-                    <strong>Address</strong><br>
-                    서울특별시 성동구 성수동
-
-                </address>
-                <address>
-                    <strong>Phone Number</strong><br>
-                    +10 9257 3573
-                </address>
-
-                <!---<address>
-                    <strong>Mobile Number</strong><br>
-                    987 654 321
-                </address>--->
-
-                <address>
-                    <strong>Email</strong><br>
-                    <a href="mailto:#">ryu.dev86.gmail.com</a>
-                </address>
-
-                <!--<address>
-                    <strong>Rocket Punch</strong><br>
-                    <a href="https://www.rocketpunch.com/@sae-yujeo-cuga0cc4e1fe"></a>
-                </address>-->
-            </div>
-        </div>
-        <!--.row
-        <div class="row">
-            <div class="col-md-12">
-                <div class="feedback-form">
-                    <h2>Get in touch</h2>
-
-                    <form id="contactForm" action="sendemail.php" method="POST">
-                        <div class="form-group">
-                            <label for="InputName">Name</label>
-                            <input type="text" name="name" required="" class="form-control" id="InputName"
-                                   placeholder="Full Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="InputEmail">Email address</label>
-                            <input type="email" name="email" required="" class="form-control" id="InputEmail"
-                                   placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="InputSubject">Subject</label>
-                            <input type="text" name="subject" class="form-control" id="InputSubject"
-                                   placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <label for="message-text" class="control-label">Message</label>
-                            <textarea class="form-control" rows="4" required="" name="message" id="message-text"
-                                      placeholder="Write message"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-                <!-- .feedback-form 
-
-
-            </div> -->
-        </div>
-    </div>
-    <!--.container-fluid-->
-</section>
-<!--.section-contact-->
-
-<footer class="footer">
-    <div class="copyright-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="copytext">&copy; Resumex. All rights reserved | Design By: <a
-                            href="https://themehippo.com">themehippo</a></div>
-                </div>
-            </div>
-            <!--.row-->
-        </div>
-        <!-- .container-fluid -->
-    </div>
-    <!-- .copyright-section -->
-</footer>
-<!-- .footer -->
-</div>
-<!-- Sticky -->
-</div>
-<!-- .right-col-block -->
-</div>
-<!-- .columns-block -->
-</div>
-<!-- #main-wrapper -->
-
-<!-- jquery -->
-<script src="js/jquery-2.1.4.min.js"></script>
-
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/theia-sticky-sidebar.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+	</body>
 </html>
+
