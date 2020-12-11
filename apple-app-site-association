@@ -1,11 +1,19 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "GZNB3YEQYA.com.coway.IOCarePoc",
-                "paths": [ "*"]
-            }
-        ]
-    }
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "GZNB3YEQYA.com.coway.IOCarePoc" ],
+             "components": [
+               {
+                  "#": "*",
+                  "exclude": true,
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "GZNB3YEQYA.com.coway.IOCarePoc" ]
+   }
 }
