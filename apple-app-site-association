@@ -1,11 +1,15 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
+	"applinks": {
+		"apps": [],
+		"details": [
             {
-                "appID": "GZNB3YEQYA.com.coway.IOCarePoc",
-                "paths": [ "*"]
-            }
-        ]
-    }
+				"appID": "GZNB3YEQYA.com.coway.IOCarePoc",
+				"paths": ["*"]
+			},
+			{
+				"appID": "JK2W3PS7CF.com.coway.IOCareKor",
+				"paths": ["*"]
+			}
+		]
+	}
 }
